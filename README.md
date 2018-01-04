@@ -37,7 +37,6 @@ To get the Node server running locally:
           "user": {
             "name": "1",
             "password": "1"
-
           }
         }
 ```
