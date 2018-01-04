@@ -1,1 +1,32 @@
-> ### Example Node (Express + MySQL+Express) application containing RSS feed parsing codebase.
+> ### Node (Express + MySQL+Express) application containing RSS feed parsing codebase.
+
+# Getting started
+
+To get the Node server running locally:
+
+- Clone this repo
+- `npm install` to install all required dependencies
+- Install MySQL (https://www.mysql.com/downloads/).
+- Use dump file(dump.sql) to create suitable database and tables.
+- `nodemon npm start` to start the local server.
+
+# Code Overview
+
+## Dependencies
+
+- [expressjs](https://github.com/expressjs/express) - The server for handling and routing HTTP requests
+- [mysql](https://github.com/mysqljs/mysql) - This is a node.js driver for mysql. 
+- [async](https://github.com/caolan/async) - Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript
+- [feed-read](https://github.com/sentientwaffle/feed-read) - Node.js module for parsing RSS feeds into a common article object.
+- [express-basic-auth ](https://github.com/LionC/express-basic-auth) - Simple plug & play HTTP basic auth middleware for Express.
+
+
+## Application Structure
+
+- `app.js` - The entry point to our application. 
+- `routes/` - This folder contains the route definitions for our API and main logic.
+- `views/` - This folder contains views pages.
+
+## API
+
+
