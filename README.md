@@ -1,4 +1,4 @@
-> ### Node (Express + MySQL+Express) application containing RSS feed parsing codebase.
+> ### Node (Express + MySQL) application containing RSS feed parsing codebase.
 
 # Getting started
 
