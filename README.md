@@ -5,7 +5,7 @@
 - Clone this repo
 - `npm install` to install all required dependencies
 - Install MySQL (https://www.mysql.com/downloads/).
-- Create database with feeds name.
+- Create database with name `feeds`.
 - Use dump file(dump.sql) to create suitable tables.
 - `nodemon npm start` to start the local server.
 
@@ -30,7 +30,7 @@
   
 - POST /feeds - to add a source of rss feeds example (http://feeds.bbci.co.uk/news/video_and_audio/world/rss.xml) .
 - GET /posts - get all current rss feeds from all sources.
-- POST /register - an API for use registration. You should include your user information in the body of your request like this:
+- POST /register - an API for user registration. You should include your user information in the body of your request like this:
 ```json
         {
           "user": {
