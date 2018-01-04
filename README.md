@@ -29,4 +29,18 @@ To get the Node server running locally:
 
 ## API
 
-
+- POST /feeds - to add a source of rss feeds example (http://feeds.bbci.co.uk/news/video_and_audio/world/rss.xml) 
+- GET /posts - get all current rss feeds from all sources
+- POST /register - an API for use registration. You should include your user information in the body of your request like this:
+```json
+{
+  "user": {
+    "name": "1",
+    "password": "1"
+    
+  }
+}
+```
+  
+- Use dump file(dump.sql) to create suitable database and tables.
+- `nodem
