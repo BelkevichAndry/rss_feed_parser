@@ -7,7 +7,8 @@ To get the Node server running locally:
 - Clone this repo
 - `npm install` to install all required dependencies
 - Install MySQL (https://www.mysql.com/downloads/).
-- Use dump file(dump.sql) to create suitable database and tables.
+- Create database with feeds name.
+- Use dump file(dump.sql) to create suitable tables.
 - `nodemon npm start` to start the local server.
 
 # Code Overview
