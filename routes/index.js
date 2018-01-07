@@ -23,7 +23,7 @@ var challengeAuth = basicAuth({
 
 router.get('/posts',challengeAuth, function(req, res, next) {
 
-	con.query("SELECT * FROM feed", (err, results, _) => {
+	con.query("SELECT * FROM feed", (err, results) => {
 
 		const feeds = results.map(function(item) { return item.resource });
 
